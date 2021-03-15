@@ -81,7 +81,7 @@ $(function () {
 
                 localStorage.setItem('token', res.token);
                 // 登陆后跳转
-                location.href = "/index.html";
+                location.href = "../../index.html";
             }
 
         })
